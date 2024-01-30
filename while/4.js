@@ -7,10 +7,9 @@ As Ersa is learning now, she wants to explore more and more. Tell Ersa to genera
 
 /*programming hero*/
 
-// let num = 5
-// let multiplication = 0
-// while(num <= 200){
-//     console.log("multiplication of 5", multiplication)
-//     num 
-//     multiplication = multiplication * num
-// }
+let num = 1
+while(num <= 10){
+    // console.log("multiplication of 5", multiplication)
+    console.log(num, " * ", 5, " = ", num * 5)
+    num++
+}
