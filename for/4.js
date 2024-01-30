@@ -6,4 +6,8 @@ Generate a multiplication table for number 9
 
 
 /*programming hero*/
-let multiplication = 0
+
+for( let num = 0; num <= 10; num++ ){
+    console.log(num, " * ", 9, " = ", 9 * num)
+    
+}
