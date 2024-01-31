@@ -9,5 +9,5 @@
 // 3. Print a message to the console indicating whether each variable is an array or not.
 
 var myArray = [1, 2, 3, 4]
-var isArray = Array.isArray(myBrray)
+var isArray = Array.isArray(myArray)
 console.log(isArray)
