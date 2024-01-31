@@ -19,3 +19,5 @@
             marks: 30
         }
     };
+   var thirty = student.physics.marks
+   console.log(thirty) 
