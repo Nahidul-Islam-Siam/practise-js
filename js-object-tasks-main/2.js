@@ -11,4 +11,6 @@ const car = {
   model: "Corolla",
   year: 2020,
 };
+car[`pssenger capacity`] = 5;
+console.log(car)
 
