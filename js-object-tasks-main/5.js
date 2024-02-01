@@ -23,3 +23,24 @@
 //     key: city | type:  string
 //     key: isStudent | type:  boolean
 
+const myObject = {
+    name: "John",
+    age: 30,
+    city: "New York",
+    isActive: true
+  };
+  
+  for (let key in myObject) {
+    const value = myObject[key];
+    const type = typeof value;
+    console.log(`${key}: ${value} | type: ${type}`);
+  }
+  
+//const fullName2 = first.concat(' | ').concat(last)
+
+// let i = 0;
+// while(i <=10){
+//     let value = i * 5
+//     console.log(value)
+//     i++
+// }
