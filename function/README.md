@@ -1,49 +1,24 @@
-# js-array-tasks
+# Simple function Related Practice Tasks
 
-### 1. Declare an array 
-1. Declare an array with 5 elements containing fruits
-2. console log the 3rd index element
-3. change the value of the 2nd index element to jambura
-4. console log the final array
-
----
-### 2. Add or remove elements
-1. Declare an array of 3 tourist destinations
-2. Add a new tourist destination to your tourist array
-3. Add two more to your array
-4. Remove the last tourist destination you have added
-5. display the final array as output
+### Task-1  
+Take four parameters. Multiply the four numbers and then return the result 
 
 ---
 
-### 3. Checking Array Membership with ‘includes’
-
-**Instructions:**
-
-1. Create an array of books containing different book.
-
-2. Use the includes method to check if the array contains a javascript book.
-
-3. Print a message to the console indicating whether the element is present in the array or not.
+### Task-2
+Take a number if the number is odd multiply it by 2 and return the result. If the number is even divide it by two and return the result.
 
 ---
 
-### 4. Checking if it's an Array
+### Task-3
+Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
 
-**Instructions:**
+---
 
-1. Create different variables, each containing either an array or a non-array value.
+### Task-4  
+Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.
 
-2. Now use isArray to check if each variable is an array.
+---
 
-3. Print a message to the console indicating whether each variable is an array or not.
-
-----
-
-### 5. Combining Arrays
-
-**Instructions:**
-
-1. Create two arrays of your choice.
-2. Use the concat method to combine the two arrays into a new array.
-3. Print both the original arrays and the combined array using console.log().
+### Task-5 
+Write a function called odd_even() which takes an integer value and tells whether this value is even or odd. If even return `Even`. If odd return `Odd`

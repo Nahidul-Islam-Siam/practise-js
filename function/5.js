@@ -1,7 +1,2 @@
-// ### 5. Combining Arrays
-
-// **Instructions:**
-
-// 1. Create two arrays of your choice.
-// 2. Use the concat method to combine the two arrays into a new array.
-// 3. Print both the original arrays and the combined array using console.log().
+// ### Task-5 
+// Write a function called odd_even() which takes an integer value and tells whether this value is even or odd. If even return `Even`. If odd return `Odd`

@@ -1,7 +1,2 @@
-// ### 2. Add or remove elements
-// 1. Declare an array of 3 tourist destinations
-// 2. Add a new tourist destination to your tourist array
-// 3. Add two more to your array
-// 4. Remove the last tourist destination you have added
-// 5. display the final array as output
-// // 
+// ### Task-2
+// Take a number if the number is odd multiply it by 2 and return the result. If the number is even divide it by two and return the result.

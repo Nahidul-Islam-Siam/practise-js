@@ -1,9 +1,3 @@
-// ### 4. Checking if it's an Array
 
-// **Instructions:**
-
-// 1. Create different variables, each containing either an array or a non-array value.
-
-// 2. Now use isArray to check if each variable is an array.
-
-// 3. Print a message to the console indicating whether each variable is an array or not.
+// ### Task-4  
+// Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.
