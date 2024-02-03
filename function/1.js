@@ -5,8 +5,8 @@
 // ---
 
 function myNum(one, two, three, four){
-let number = one * two * three * four
-return number
+const result = one * two * three * four
+return result
 }
-myNum(2, 3, 2, 4)
-console.log(number);
+let result = myNum(2, 3, 2, 4)
+console.log(result);
