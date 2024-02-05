@@ -10,3 +10,5 @@
 // `'TomTimTinTik'`
 
 // ---
+
+var numbers = ['Tom', 'Tim', 'Tin', 'Tik']
