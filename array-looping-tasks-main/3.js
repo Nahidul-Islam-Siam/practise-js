@@ -12,3 +12,6 @@
 // ---
 
 var numbers = ['Tom', 'Tim', 'Tin', 'Tik']
+
+let stringWithoutSpaces = numbers.replace(/\s/g, '');
+console.log(stringWithoutSpaces); // Output: "Hello,World!"
