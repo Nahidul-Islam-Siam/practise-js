@@ -9,4 +9,34 @@
 //         ];
 // ```
 
+const employees = [
+                { name: "shahin", experience: 5, starting: 20000, increment: 5000 },
+                { name: "shihab", experience: 3, starting: 15000, increment: 7000 },
+                { name: "shikot", experience: 9, starting: 30000, increment: 1000 },
+                { name: "shohel", experience: 0, starting: 29000, increment: 4000 },
+            ];
 
+            function findAveragePhonePrice(sallary) {
+                let price = 0
+              
+               
+                for(const sal of sallary){
+                    // let theProductCost = (sal.s)
+                    
+                    let exp = sal.experience
+                    let inc = sal.increment
+                    let start = sal.starting
+                    let currentSallary = start + (exp * inc)
+                    price = price + currentSallary
+                    
+                    // console.log(price);
+                //    incrementSallary = price + incrementSallary
+                // return price
+                    //  incrementSallary = incrementSallary +(sal.increment * sal.experience )
+                }
+                return price
+                // console.log(price);
+                // console.log(incrementSallary);
+            }
+            let avg = findAveragePhonePrice(employees)
+            console.log(avg);
