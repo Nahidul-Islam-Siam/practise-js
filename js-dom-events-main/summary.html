@@ -7,7 +7,35 @@
     <title>Summary: Event handlers</title>
 </head>
 <body>
-    <h1>Explore DOM Events</h1>
+    <h1>Final DOM Event Handlers</h1>
+    
+    <h3 id="handler-status">Default Text</h3>
+    <button onclick="handOnClick()">make event onclick handlorer</button>
+    <button id="event-listener">Handle event by addEventListener</button>
+    <input id="input-field" type="text">
+   <button id="btn-update">update</button>
+    <script>
+        document.getElementById('btn-update').addEventListener('click',function(){
+            const inputField = document.getElementById('input-field');
+            const inputText = inputField.value
+            // handlerStatus.innerText = 'Text updated by add Event listener button'
+        })
+        function handOnClick(){
+const handlerStatus = document.getElementById('handler-status')
+handlerStatus.innerText = 'Handled by function attached on onclick attribute'
+
+}
+
+   document.getElementById('event-listener').addEventListener('click',function(
+   
+           
+   ){const handlerStatus = document.getElementById('handler-status')
+    handlerStatus.innerText = 'Text updated by add Event listner button'
+   })
+   
+        
+    </script>
+    <!-- <h1>Explore DOM Events</h1>
     <button onclick="makeGreen()">Make Green</button>
     <button id="make-yellow">Make yellow</button>
     <br>
@@ -27,6 +55,6 @@
         document.getElementById('user-email').addEventListener('keyup', function(event){
             console.log(event.target.value)
         })
-    </script>
+    </script> -->
 </body>
 </html>
